@@ -5,7 +5,7 @@ import React from 'react';
 const ComplaintItem = ({quarter, month, complaints, units}) => {
     return (
         <div className='complaint-item'>
-            
+            <span> {quarter} {month} {complaints} {units} </span>
         </div>
     )
 }
